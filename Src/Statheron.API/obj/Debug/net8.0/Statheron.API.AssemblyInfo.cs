@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Statheron.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf3a37ff978311bff365ccb3fbcf05c6766ff5e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Statheron.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Statheron.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

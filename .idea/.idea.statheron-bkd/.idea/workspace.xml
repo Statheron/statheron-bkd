@@ -18,6 +18,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Statheron/statheron-bkd.git",
+    "accountId": "521021fe-1aad-443e-9adc-c9a23d80d8e9"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Src/Statheron.Domain/Class1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
