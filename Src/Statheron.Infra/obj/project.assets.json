@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Statheron.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Statheron.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Statheron.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Statheron.Application.dll": {}
+        }
+      },
+      "Statheron.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Statheron.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Statheron.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Statheron.Application/1.0.0": {
+      "type": "project",
+      "path": "../Statheron.Application/Statheron.Application.csproj",
+      "msbuildProject": "../Statheron.Application/Statheron.Application.csproj"
+    },
+    "Statheron.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Statheron.Domain/Statheron.Domain.csproj",
+      "msbuildProject": "../Statheron.Domain/Statheron.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Statheron.Application >= 1.0.0",
+      "Statheron.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\tomas\\.nuget\\packages\\": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Projetos\\statheron-bkd\\Src\\Statheron.Application\\Statheron.Application.csproj": {
+              "projectPath": "F:\\Projetos\\statheron-bkd\\Src\\Statheron.Application\\Statheron.Application.csproj"
+            },
+            "F:\\Projetos\\statheron-bkd\\Src\\Statheron.Domain\\Statheron.Domain.csproj": {
+              "projectPath": "F:\\Projetos\\statheron-bkd\\Src\\Statheron.Domain\\Statheron.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

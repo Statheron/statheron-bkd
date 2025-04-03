@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Statheron.Application\Statheron.Application.csproj" />
+      <ProjectReference Include="..\Statheron.Domain\Statheron.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

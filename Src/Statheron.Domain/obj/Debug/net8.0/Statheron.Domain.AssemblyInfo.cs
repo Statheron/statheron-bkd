@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Statheron.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0dfa99d4b35c626881e7c3764127a3d875a46a00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5ec343e67459a0e980f16cbe193d2c361dccef3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Statheron.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Statheron.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
