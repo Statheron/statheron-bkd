@@ -1,0 +1,182 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug*/
+[Rr]elease*/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]*/
+bld/
+
+# Visual Studio & VS Code
+.vs/
+.vscode/
+.idea/
+
+# VS auto-generated
+Generated\ Files/
+
+# MSTest / NUnit / Benchmark / Coverage
+[Tt]est[Rr]esult*/
+*.VisualState.xml
+*.coverage*
+*.trx
+TestResult.xml
+nunit-*.xml
+BenchmarkDotNet.Artifacts/
+coverage*.{json,xml,info}
+*.dotCover
+.axoCover/*
+!*.axoCover/settings.json
+
+# Logs
+*.log
+*.svclog
+*.binlog
+
+# Intermediate/Compiled Files
+*.obj
+*.iobj
+*.ilk
+*.pdb
+*.ipdb
+*.tmp
+*.pch
+*.rsp
+*.tlb
+*.tli
+*.tlh
+*.sbr
+*.meta
+*.cache
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.opendb
+
+# TFS / Azure DevOps
+$tf/
+
+# Guidance Automation / ReSharper / TeamCity / DotSettings
+*.gpState
+_ReSharper*/
+*.DotSettings.user
+_TeamCity*
+
+# ClickOnce
+publish/
+*.publishproj
+*.pubxml
+*.azurePubxml
+*.[Pp]ublish.xml
+PublishScripts/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# Azure
+csx/
+*.build.csdef
+ecf/
+rcf/
+
+# Web Workbench / Sass
+.sass-cache/
+
+# SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Business Intelligence
+*.rdl.data
+*.bim.*
+*.rptproj.*
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# Node.js
+node_modules/
+
+# LightSwitch
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.Server/GeneratedArtifacts
+**/*.ModelManifest.xml
+
+# Paket & FAKE
+.paket/
+paket-files/
+.fake/
+
+# Python PTVS
+__pycache__/
+*.pyc
+
+# Xamarin
+.mfractor/
+
+# JetBrains Rider & IntelliJ
+*.iml
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/shelf/*
+**/.idea/dictionaries
+**/.idea/httpRequests/
+**/.idea/**/dataSources*
+**/.idea/**/sqlDataSources.xml
+**/.idea/**/dynamic.xml
+**/.idea/**/modules.xml
+**/.idea/**/contentModel.xml
+
+# Misc
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+Generated_Code/
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+*.plg
+*.opt
+*.vbw
+*.jmconfig
+*.GhostDoc.xml
+.localhistory/
+ServiceFabricBackup/
+.healthchecksdb
+MigrationBackup/
+.pkginfo.txt
+*.appx*
+*.appxupload
+AppPackages/
+BundleArtifacts/
+
+# OS Files
+Thumbs.db
+Desktop.ini
+.DS_Store
