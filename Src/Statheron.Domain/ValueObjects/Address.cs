@@ -1,4 +1,5 @@
-﻿using Flunt.Validations;
+﻿using Flunt.Notifications;
+using Flunt.Validations;
 using Statheron.Domain.ValueObjects.Abstractions;
 
 namespace Statheron.Domain.ValueObjects;
@@ -14,7 +15,7 @@ public class Address : ValueObject
 
     public Address(string street, string city, string state, string zipCode, string country, string number)
     {
-        AddNotifications(new Contract<Address>()
+        AddNotifications(new Contract<Notification>()
             .IsNotNullOrWhiteSpace(street, nameof(Street))
             .IsNotNullOrWhiteSpace(city, nameof(City))
             .IsNotNullOrWhiteSpace(state, nameof(State))

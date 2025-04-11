@@ -1,4 +1,5 @@
-﻿using Flunt.Validations;
+﻿using Flunt.Notifications;
+using Flunt.Validations;
 using Statheron.Domain.Entities.Abstractions;
 using Statheron.Domain.ValueObjects;
 
@@ -21,7 +22,7 @@ public class Provider : BaseEntity
         Contact contact,
         List<Product> products)
     {
-        AddNotifications(new Contract<Contact>()
+        AddNotifications(new Contract<Notification>()
             .IsNotNull(companyName, nameof(CompanyName)));
 
         CompanyName = companyName;
